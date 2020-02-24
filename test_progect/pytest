@@ -1,0 +1,26 @@
+============================= test session starts =============================
+platform win32 -- Python 3.7.4, pytest-5.2.1, py-1.8.0, pluggy-0.13.0
+rootdir: C:\Users\natal\PycharmProjects\stepik-auto-test-course3\test_progect
+plugins: arraydiff-0.3, doctestplus-0.4.0, openfiles-0.4.0, remotedata-0.3.2
+collected 2 items
+
+test_regression.py EE                                                    [100%]
+
+=================================== ERRORS ====================================
+____________ ERROR at setup of TestLessonCreate.test_create_lesson ____________
+file C:\Users\natal\PycharmProjects\stepik-auto-test-course3\test_progect\test_regression.py, line 3
+      def test_create_lesson(self, browser):
+E       fixture 'browser' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+C:\Users\natal\PycharmProjects\stepik-auto-test-course3\test_progect\test_regression.py:3
+______________ ERROR at setup of test_guest_can_open_new_course _______________
+file C:\Users\natal\PycharmProjects\stepik-auto-test-course3\test_progect\test_regression.py, line 17
+  def test_guest_can_open_new_course(browser):
+E       fixture 'browser' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+C:\Users\natal\PycharmProjects\stepik-auto-test-course3\test_progect\test_regression.py:17
+============================== 2 error in 0.22s ===============================
